@@ -1,1 +1,39 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"film-collection-d20de","appId":"1:710093697177:android:e5c2b06053feb61fe78808","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"film-collection-d20de","configurations":{"android":"1:710093697177:android:e5c2b06053feb61fe78808","ios":"1:710093697177:ios:a6de60be5e5cc244e78808","macos":"1:710093697177:ios:a6de60be5e5cc244e78808","web":"1:710093697177:web:f6c6cc1367a443fae78808","windows":"1:710093697177:web:ff60717245e3c1c0e78808"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "film-collection-d20de",
+          "appId": "1:710093697177:android:e5c2b06053feb61fe78808",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "film-collection-d20de",
+          "configurations": {
+            "android": "1:710093697177:android:e5c2b06053feb61fe78808",
+            "ios": "1:710093697177:ios:a6de60be5e5cc244e78808",
+            "macos": "1:710093697177:ios:a6de60be5e5cc244e78808",
+            "web": "1:710093697177:web:f6c6cc1367a443fae78808",
+            "windows": "1:710093697177:web:ff60717245e3c1c0e78808"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
