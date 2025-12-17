@@ -1,0 +1,51 @@
+name: movie_collection
+description: Застосунок для ведення колекції фільмів та серіалів
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  http: ^1.1.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.17.5
+  firebase_analytics: ^10.7.4  # Для Analytics
+  # firebase_crashlytics: ^3.4.6  # ДОДАТИ
+  sentry_flutter: ^8.9.0
+  shared_preferences: ^2.5.3
+  firebase_storage: ^11.6.0
+  image_picker: ^1.0.7        # Для вибору фото з телефону
+ 
+
+dev_dependencies:
+  sentry_dart_plugin: ^3.2.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Додайте свої зображення тут
+  assets:
+    - asserts/images/
+
+  # Приклад як додати конкретні файли:
+  # assets:
+  #   - assets/images/interstellar.jpg
+  #   - assets/images/matrix.jpg
+  #   - assets/images/inception.jpg
+  #   - assets/images/dark_knight.jpg
+  #   - assets/images/lotr.jpg
+  #   - assets/images/fight_club.jpg
+
+sentry:
+  upload_debug_symbols: true
+  upload_source_maps: true
+  project: flutter
+  org: film-collection

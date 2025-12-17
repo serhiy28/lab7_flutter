@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710093697177",
+    "project_id": "film-collection-d20de",
+    "storage_bucket": "film-collection-d20de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710093697177:android:a78c11f21d1e25d7e78808",
+        "android_client_info": {
+          "package_name": "com.film_collection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7lNdJv5hyFLIfTGC1b5_DlFK_cSpOCZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
